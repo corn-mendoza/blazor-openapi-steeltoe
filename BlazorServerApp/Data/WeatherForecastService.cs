@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 
 namespace BlazorServerApp.Data
 {
-    public class WeatherForecastService
+    public class WeatherForecastService : IWeatherForecastService
     {
         private const string WEATHER_FORECAST_URL = "https://WeatherForecastService/WeatherForecast";
 
